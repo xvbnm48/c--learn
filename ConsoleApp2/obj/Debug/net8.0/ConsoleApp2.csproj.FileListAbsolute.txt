@@ -12,3 +12,4 @@ C:\Users\fariz.wisnu\RiderProjects\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\refi
 C:\Users\fariz.wisnu\RiderProjects\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.pdb
 C:\Users\fariz.wisnu\RiderProjects\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.genruntimeconfig.cache
 C:\Users\fariz.wisnu\RiderProjects\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ref\ConsoleApp2.dll
+C:\Users\fariz.wisnu\RiderProjects\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ConsoleApp2.sourcelink.json
