@@ -24,7 +24,7 @@ namespace MyNamespace
             op = char.Parse(Console.ReadLine());
             Console.Write("enter num :");
             num2 = double.Parse(Console.ReadLine());
-
+            
             switch (op)
             {
                 case '+':
@@ -48,6 +48,18 @@ namespace MyNamespace
                     break;
             }
 
+            int noCar = 12;
+            Console.WriteLine(Convert.ToString(noCar));
+            Console.WriteLine($"nocar : {noCar.GetType}");
+
+            string name =
+                "Krung Thep Mahanakhon Amon Rattanakosin Mahinthara Yuthaya Mahadilok Phop Noppharat Ratchathani Burirom Udomratchaniwet Mahasathan Amon Piman Awatan Sathit Sakkathattiya Witsanukam Prasit";
+            Console.WriteLine("lenght of name is " + name.Length);
+            Console.WriteLine(name[2]);
+            string myOshi = "vinisa yustiara";
+            int indexNamaBelakang = myOshi.IndexOf("y");
+            string namaBelakang = myOshi.Substring(indexNamaBelakang);
+            Console.WriteLine($"nama belakang dari {myOshi} adalah {namaBelakang}");
         }
     }
 }
