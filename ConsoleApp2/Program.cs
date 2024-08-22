@@ -1,4 +1,6 @@
 ﻿using MyNamespace.model;
+using MyNamespace.ternary;
+using MyNamespace.while_loop;
 
 namespace MyNamespace
 {
@@ -88,6 +90,20 @@ namespace MyNamespace
             Kucing kucingku = new Kucing();
             kucingku.Mengeong();
             kucingku.Makan();
+            string tegami =
+                "vini adalah seorang idol dari Hira dazzle, dia itu member hira dazzle emerald green. Dia sangat cantik dan imut itu sangat ku suka, sangat \"suka\"";
+            Console.WriteLine(tegami);
+            Ternary isOld = new Ternary();
+            Console.WriteLine(isOld.result);
+            string resultSwitch = switchLearn.FunctionMenghitungNilaiRaport.nilaiRaport(89);
+            Console.WriteLine(resultSwitch);
+            whileLearn.belajarWhile(5);
+            perwarisan.Person learnPerwarisan = new perwarisan.Person();
+            // learnPerwarisan.Name = "fariz love vini";
+            // kalau di atas ini langsung ganti ke struct 
+            // kalau dibawah ini itu akses ke function change name untuk ganti struct nya 
+            learnPerwarisan.ChangeName("fariz love vini");
+            Console.WriteLine(learnPerwarisan.Name);
         }
     }
 
