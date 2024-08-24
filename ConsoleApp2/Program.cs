@@ -1,4 +1,5 @@
-﻿using MyNamespace.model;
+﻿using MyNamespace.for_loop;
+using MyNamespace.model;
 using MyNamespace.ternary;
 using MyNamespace.while_loop;
 
@@ -104,6 +105,16 @@ namespace MyNamespace
             // kalau dibawah ini itu akses ke function change name untuk ganti struct nya 
             learnPerwarisan.ChangeName("fariz love vini");
             Console.WriteLine(learnPerwarisan.Name);
+         
+            int[] numbers = { 5, 1, 4, 2, 8 };
+
+            // Panggil metode BubbleShort dari kelas DSA
+            DSA.BubbleShort(numbers);
+
+            // Cetak array setelah diurutkan
+            Console.WriteLine("Array setelah Bubble Sort:");
+            // Console.WriteLine(numbers);
+            Console.WriteLine(string.Join(", ", numbers));
         }
     }
 
